@@ -5,5 +5,5 @@ def weight_average(my_list=[]):
     else:
         sum_multiplied_values = sum(score * weight for score, weight in my_list)
         addition_of_weights = sum(weight for _, weight in my_list)
-
-    return (sum_multiplied_values / addition_of_weights)
+        average_weight = (sum_multiplied_values / addition_of_weights)
+    return (average_weight)
