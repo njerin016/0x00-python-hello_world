@@ -3,9 +3,9 @@ class Square:
     """
     This class defines a square
     Atrributes:
-    None
+    there are no attributes for this class
 
     Methods:
-    None
+    there are no methods for this class
     """
     pass
