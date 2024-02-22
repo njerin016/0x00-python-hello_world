@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Square module"""
 class Square:
     """
     This class defines a square
@@ -7,8 +8,9 @@ class Square:
     It has no methods.
     """
     def __init__(self, size):
-        """
-        Initializing a new instance of the Square class
-        size of the square
+        """Constructor
+        initializing a new instance of the Square class
+        Args:
+        size:size of the square
         """
         self.__size = size
