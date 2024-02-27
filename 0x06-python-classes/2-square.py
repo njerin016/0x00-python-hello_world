@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""
+Class that defines a square
+"""
 class Square:
     """
-    Class that defines a square
     Attributes:
     Size: size of a square which is initialized as 0
     Methods (None):
