@@ -2,6 +2,8 @@
 """
 Class that defines a square
 """
+
+
 class Square:
     """
     Attributes:
