@@ -6,14 +6,14 @@ A class that defines a square
 
 class Square:
     """
-    Atrribute:
-    Size: size of the square initialized as 0
+    Attribute:
+    Size: the size of the square
     """
     def __init__(self, size=0):
         """
-        Constructor initializing a new instance of the square class
+        Constructor that initializes an instance of the square class
         Args:
-        size: size of the square
+        size: size of square
         """
         self.__size = size
 
@@ -27,7 +27,7 @@ class Square:
     @size.setter
     def size(self, value):
         """
-        setter method: sets a value to size
+        setter method: sets a value to be the size of the square
         """
         if type(value) != int:
             raise TypeError("size must be an integer")
@@ -36,8 +36,20 @@ class Square:
         else:
             self.__size = value
 
-    def area(self):
+    def area(size):
         """
         returns the area of the square
         """
         return (self.__size * self.__size)
+
+    def my_print(self):
+        """
+        prints in stdout the square with the character #
+        """
+        if self.__size == 0:
+            print("")
+        else:
+            for i in range(0, self.__size):
+                for j in range(0, self.__size):
+                    print("#", end="")
+                print("")
